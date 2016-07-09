@@ -63,7 +63,7 @@ We use the the original VGG-19 model. You can find the download script at [Neura
 * All parameters are explained in "qlua cnnmrf.lua --help".
 
 # Guided Synthesis
-* Run `qlua run_trans.lua` in a terminal. Most important parameters are '-style_image' for specifying style input image, '-content_image' for specifying content input image and '-max_size' for resulting image size.
+* Run `qlua run_trans.lua` in a terminal. Most important parameters are '-style_name' for specifying style input image, '-content_name' for specifying content input image and '-max_size' for resulting image size.
 * The content/style images are located in the folders "data/content" and "data/style" respectively. 
 * Results are located in the folder "data/result/trans/MRF"
 * Parameters are defined & explained in "run_trans.lua".
